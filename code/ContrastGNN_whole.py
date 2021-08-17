@@ -510,14 +510,14 @@ args.sign_conv = 'sign'
 args.sign_aggre = 'both'
 # pos / neg / intra / inter / all
 args.contrast_type = 'all'
-# delete / change / reverse
+# delete / change / reverse / composite
 args.augment = 'change'
 
 #args.contrastive = True
 args.mask_ratio = 0.1
 args.tao = 0.05
 args.alpha = 1e-4
-args.beta = 0.2
+args.beta = 0.8
 args.pos_gamma = 1
 args.neg_gamma = 1
 
