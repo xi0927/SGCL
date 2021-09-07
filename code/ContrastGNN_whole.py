@@ -328,7 +328,7 @@ class Model(nn.Module):
         
         embs = torch.cat((embs_attr_pos,embs_stru_pos,embs_attr_neg, embs_stru_neg), dim=-1)
         self_embs = self.transform(embs)
-        normalized_self_embs = F.normalize(embs_attr_neg, p=2, dim=1)
+        normalized_self_embs = F.normalize(self_embs, p=2, dim=1)
         
         intra = intra_contrastive(normalized_self_embs, normalized_embs_attr_pos, normalized_embs_attr_neg, normalized_embs_stru_pos, normalized_embs_stru_neg)
         #print(f'inter_pos:{inter_pos}  inter_neg:{inter_neg}  intra:{intra}')
