@@ -8,3 +8,8 @@ There is some differences between the code and the paper.
 1. The meaning of $\alpha$ and $\beta$ in the code is opposite to that in the paper!!!
 2. **Sign perturbation** corresponds to **args.augment=change**, **Connectivity perturbation** corresponds to **args.augment=delete**, **Composite** correponds to **args.augment=composite**.
 
+## Parameter Settings
+#### BitCoinAlpha
+args.alpha = 1e-4, args.beta = 0.8, args.mask_ratio = 0.1
+#### BitCoinOTC
+args.alpha = 1e-4, args.beta = 0.2, args.mask_ratio = 0.1
