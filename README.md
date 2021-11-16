@@ -5,7 +5,7 @@ ContrastGNN/ is actually the same with ContrastGNN_whole.py, where the differenc
 
 ## Note
 There is some differences between the code and the paper.
-1. The meaning of $\alpha$ and $\beta$ in the code is opposite to that in the paper!!!
+1. **The meaning of $\alpha$ and $\beta$ in the code is opposite to that in the paper!!!**
 2. **Sign perturbation** corresponds to **args.augment=change**, **Connectivity perturbation** corresponds to **args.augment=delete**, **Composite** correponds to **args.augment=composite**.
 
 ## Parameter Settings
