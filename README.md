@@ -1,5 +1,7 @@
 # SGCL
 
+Codes of **Sgcl: Contrastive representation learning for signed graphs[C]//Proceedings of the 30th ACM International Conference on Information & Knowledge Management. 2021.**
+
 ## ContrastGNN_whole & ContrastGNN/
 ContrastGNN/ is actually the same with ContrastGNN_whole.py, where the difference is that ContrastGNN/ consists of multiple files and ContrastGNN_whole.py is a single file.
 
